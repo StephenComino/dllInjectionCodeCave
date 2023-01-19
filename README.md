@@ -2,11 +2,11 @@
 
 Simple DLL injection Proof of concept:
 
-Uses the Code Cave Method
+Uses the Code Cave Method__
 
-NASM Code for DLL Stub:
-bits 64
-push 0x11223344
+NASM Code for DLL Stub:__
+bits 64__
+push 0x11223344__
 mov dword [rsp + 4], 0x55667788
 pushfq
 ; no pushad on x64
